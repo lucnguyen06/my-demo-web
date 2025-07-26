@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Cầu Lông</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="slider.css">
+  <style>
+    #cart-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.3);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+    #cart-content {
+      background: #fff;
+      border-radius: 8px;
+      padding: 30px 20px 20px 20px;
+      min-width: 350px;
+      max-width: 95vw;
+      max-height: 90vh;
+      overflow: auto;
+      box-shadow: 0 4px 24px rgba(30,144,255,0.18);
+      position: relative;
+    }
+    #close-cart {
+      position: absolute;
+      top: 10px; right: 15px;
+      background: none;
+      border: none;
+      font-size: 1.5em;
+      color: #d32f2f;
+      cursor: pointer;
+    }
+    /* Thanh ngang danh mục */
+    #category-bar {
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(30,144,255,0.08);
+      border-radius: 0 0 8px 8px;
+      margin-bottom: 20px;
+      padding: 0 0 0 0;
+      gap: 0;
+    }
+    #category-bar button {
+      border: none;
+      background: none;
+      padding: 16px 32px;
+      font-size: 1.1em;
+      color: #1e90ff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+      border-radius: 0;
+    }
+    #category-bar button.active, #category-bar button:hover {
+      background: #e6f7ff;
+      color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shop Cầu Lông</h1>
+    <nav>
+      <a href="#" onclick="showCart();return false;">Giỏ hàng (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+  <div id="category-bar">
+    <button id="cat-all" onclick="filterCategory('Tất cả');setActiveCat(this)">Tất cả</button>
+    <button id="cat-vot" onclick="filterCategory('Vợt');setActiveCat(this)">Vợt cầu lông</button>
+    <button id="cat-giay" onclick="filterCategory('Giày');setActiveCat(this)">Giày cầu lông</button>
+    <button id="cat-ao" onclick="filterCategory('Áo');setActiveCat(this)">Áo cầu lông</button>
+  </div>
+  <section id="slider"></section>
+  <section id="countdown"></section>
+  <div id="main-content">
+    <section id="products"></section>
+  </div>
+  <div id="cart-modal">
+    <div id="cart-content">
+      <button id="close-cart" onclick="hideCart()">&times;</button>
+      <h2>Giỏ hàng</h2>
+      <div id="cart"></div>
+      <div style="text-align:center; margin:20px 0 0 0;">
+        <a href="order.html"><button>Đặt hàng</button></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Shop Cầu Lông By RIO_DEV(@lucnguyen06)</p>
+  </footer>
+  <script src="main.js"></script>
+  <script>
+    function setActiveCat(btn) {
+      document.querySelectorAll('#category-bar button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+    // Mặc định chọn "Tất cả"
+    window.onload = function() {
+      if (typeof renderSlider === 'function') renderSlider();
+      if (typeof renderProducts === 'function') renderProducts();
+      if (typeof startCountdown === 'function') startCountdown();
+      if (typeof updateCartCount === 'function') updateCartCount();
+      setActiveCat(document.getElementById('cat-all'));
+    }
+  </script>
+</body>
+</html>
