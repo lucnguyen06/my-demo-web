@@ -9,608 +9,96 @@ class Product {
     this.category = category;
   }
 }
-[
-  {
-    "id": 1,
-    "name": "Giày cầu lông Taro TR024-2",
-    "price": 499000,
-    "image": "giay_taro_tr024_2.jpg",
-    "description": "Giày cầu lông Taro TR024-2, thiết kế thể thao, êm ái, bám sân tốt.",
-    "category": "Giày"
-  },
-  {
-    "id": 2,
-    "name": "Giày cầu lông Taro TR024-1",
-    "price": 499000,
-    "image": "giay_taro_tr024_1.jpg",
-    "description": "Giày cầu lông Taro TR024-1, kiểu dáng trẻ trung, phù hợp mọi đối tượng.",
-    "category": "Giày"
-  },
-  {
-    "id": 3,
-    "name": "Sản phẩm mẫu 3",
-    "price": 1003000,
-    "image": "images/san_pham_3.jpg",
-    "description": "Mô tả sản phẩm mẫu 3.",
-    "category": "Giày"
-  },
-  {
-    "id": 4,
-    "name": "Sản phẩm mẫu 4",
-    "price": 1004000,
-    "image": "images/san_pham_4.jpg",
-    "description": "Mô tả sản phẩm mẫu 4.",
-    "category": "Vợt"
-  },
-  {
-    "id": 5,
-    "name": "Sản phẩm mẫu 5",
-    "price": 1005000,
-    "image": "images/san_pham_5.jpg",
-    "description": "Mô tả sản phẩm mẫu 5.",
-    "category": "Giày"
-  },
-  {
-    "id": 6,
-    "name": "Sản phẩm mẫu 6",
-    "price": 1006000,
-    "image": "images/san_pham_6.jpg",
-    "description": "Mô tả sản phẩm mẫu 6.",
-    "category": "Vợt"
-  },
-  {
-    "id": 7,
-    "name": "Sản phẩm mẫu 7",
-    "price": 1007000,
-    "image": "images/san_pham_7.jpg",
-    "description": "Mô tả sản phẩm mẫu 7.",
-    "category": "Giày"
-  },
-  {
-    "id": 8,
-    "name": "Sản phẩm mẫu 8",
-    "price": 1008000,
-    "image": "images/san_pham_8.jpg",
-    "description": "Mô tả sản phẩm mẫu 8.",
-    "category": "Vợt"
-  },
-  {
-    "id": 9,
-    "name": "Sản phẩm mẫu 9",
-    "price": 1009000,
-    "image": "images/san_pham_9.jpg",
-    "description": "Mô tả sản phẩm mẫu 9.",
-    "category": "Giày"
-  },
-  {
-    "id": 10,
-    "name": "Sản phẩm mẫu 10",
-    "price": 1010000,
-    "image": "images/san_pham_10.jpg",
-    "description": "Mô tả sản phẩm mẫu 10.",
-    "category": "Vợt"
-  },
-  {
-    "id": 11,
-    "name": "Sản phẩm mẫu 11",
-    "price": 1011000,
-    "image": "images/san_pham_11.jpg",
-    "description": "Mô tả sản phẩm mẫu 11.",
-    "category": "Giày"
-  },
-  {
-    "id": 12,
-    "name": "Sản phẩm mẫu 12",
-    "price": 1012000,
-    "image": "images/san_pham_12.jpg",
-    "description": "Mô tả sản phẩm mẫu 12.",
-    "category": "Vợt"
-  },
-  {
-    "id": 13,
-    "name": "Sản phẩm mẫu 13",
-    "price": 1013000,
-    "image": "images/san_pham_13.jpg",
-    "description": "Mô tả sản phẩm mẫu 13.",
-    "category": "Giày"
-  },
-  {
-    "id": 14,
-    "name": "Sản phẩm mẫu 14",
-    "price": 1014000,
-    "image": "images/san_pham_14.jpg",
-    "description": "Mô tả sản phẩm mẫu 14.",
-    "category": "Vợt"
-  },
-  {
-    "id": 15,
-    "name": "Sản phẩm mẫu 15",
-    "price": 1015000,
-    "image": "images/san_pham_15.jpg",
-    "description": "Mô tả sản phẩm mẫu 15.",
-    "category": "Giày"
-  },
-  {
-    "id": 16,
-    "name": "Sản phẩm mẫu 16",
-    "price": 1016000,
-    "image": "images/san_pham_16.jpg",
-    "description": "Mô tả sản phẩm mẫu 16.",
-    "category": "Vợt"
-  },
-  {
-    "id": 17,
-    "name": "Sản phẩm mẫu 17",
-    "price": 1017000,
-    "image": "images/san_pham_17.jpg",
-    "description": "Mô tả sản phẩm mẫu 17.",
-    "category": "Giày"
-  },
-  {
-    "id": 18,
-    "name": "Sản phẩm mẫu 18",
-    "price": 1018000,
-    "image": "images/san_pham_18.jpg",
-    "description": "Mô tả sản phẩm mẫu 18.",
-    "category": "Vợt"
-  },
-  {
-    "id": 19,
-    "name": "Sản phẩm mẫu 19",
-    "price": 1019000,
-    "image": "images/san_pham_19.jpg",
-    "description": "Mô tả sản phẩm mẫu 19.",
-    "category": "Giày"
-  },
-  {
-    "id": 20,
-    "name": "Sản phẩm mẫu 20",
-    "price": 1020000,
-    "image": "images/san_pham_20.jpg",
-    "description": "Mô tả sản phẩm mẫu 20.",
-    "category": "Vợt"
-  },
-  {
-    "id": 21,
-    "name": "Sản phẩm mẫu 21",
-    "price": 1021000,
-    "image": "images/san_pham_21.jpg",
-    "description": "Mô tả sản phẩm mẫu 21.",
-    "category": "Giày"
-  },
-  {
-    "id": 22,
-    "name": "Sản phẩm mẫu 22",
-    "price": 1022000,
-    "image": "images/san_pham_22.jpg",
-    "description": "Mô tả sản phẩm mẫu 22.",
-    "category": "Vợt"
-  },
-  {
-    "id": 23,
-    "name": "Sản phẩm mẫu 23",
-    "price": 1023000,
-    "image": "images/san_pham_23.jpg",
-    "description": "Mô tả sản phẩm mẫu 23.",
-    "category": "Giày"
-  },
-  {
-    "id": 24,
-    "name": "Sản phẩm mẫu 24",
-    "price": 1024000,
-    "image": "images/san_pham_24.jpg",
-    "description": "Mô tả sản phẩm mẫu 24.",
-    "category": "Vợt"
-  },
-  {
-    "id": 25,
-    "name": "Sản phẩm mẫu 25",
-    "price": 1025000,
-    "image": "images/san_pham_25.jpg",
-    "description": "Mô tả sản phẩm mẫu 25.",
-    "category": "Giày"
-  },
-  {
-    "id": 26,
-    "name": "Sản phẩm mẫu 26",
-    "price": 1026000,
-    "image": "images/san_pham_26.jpg",
-    "description": "Mô tả sản phẩm mẫu 26.",
-    "category": "Vợt"
-  },
-  {
-    "id": 27,
-    "name": "Sản phẩm mẫu 27",
-    "price": 1027000,
-    "image": "images/san_pham_27.jpg",
-    "description": "Mô tả sản phẩm mẫu 27.",
-    "category": "Giày"
-  },
-  {
-    "id": 28,
-    "name": "Sản phẩm mẫu 28",
-    "price": 1028000,
-    "image": "images/san_pham_28.jpg",
-    "description": "Mô tả sản phẩm mẫu 28.",
-    "category": "Vợt"
-  },
-  {
-    "id": 29,
-    "name": "Sản phẩm mẫu 29",
-    "price": 1029000,
-    "image": "images/san_pham_29.jpg",
-    "description": "Mô tả sản phẩm mẫu 29.",
-    "category": "Giày"
-  },
-  {
-    "id": 30,
-    "name": "Sản phẩm mẫu 30",
-    "price": 1030000,
-    "image": "images/san_pham_30.jpg",
-    "description": "Mô tả sản phẩm mẫu 30.",
-    "category": "Vợt"
-  },
-  {
-    "id": 31,
-    "name": "Sản phẩm mẫu 31",
-    "price": 1031000,
-    "image": "images/san_pham_31.jpg",
-    "description": "Mô tả sản phẩm mẫu 31.",
-    "category": "Giày"
-  },
-  {
-    "id": 32,
-    "name": "Sản phẩm mẫu 32",
-    "price": 1032000,
-    "image": "images/san_pham_32.jpg",
-    "description": "Mô tả sản phẩm mẫu 32.",
-    "category": "Vợt"
-  },
-  {
-    "id": 33,
-    "name": "Sản phẩm mẫu 33",
-    "price": 1033000,
-    "image": "images/san_pham_33.jpg",
-    "description": "Mô tả sản phẩm mẫu 33.",
-    "category": "Giày"
-  },
-  {
-    "id": 34,
-    "name": "Sản phẩm mẫu 34",
-    "price": 1034000,
-    "image": "images/san_pham_34.jpg",
-    "description": "Mô tả sản phẩm mẫu 34.",
-    "category": "Vợt"
-  },
-  {
-    "id": 35,
-    "name": "Sản phẩm mẫu 35",
-    "price": 1035000,
-    "image": "images/san_pham_35.jpg",
-    "description": "Mô tả sản phẩm mẫu 35.",
-    "category": "Giày"
-  },
-  {
-    "id": 36,
-    "name": "Sản phẩm mẫu 36",
-    "price": 1036000,
-    "image": "images/san_pham_36.jpg",
-    "description": "Mô tả sản phẩm mẫu 36.",
-    "category": "Vợt"
-  },
-  {
-    "id": 37,
-    "name": "Sản phẩm mẫu 37",
-    "price": 1037000,
-    "image": "images/san_pham_37.jpg",
-    "description": "Mô tả sản phẩm mẫu 37.",
-    "category": "Giày"
-  },
-  {
-    "id": 38,
-    "name": "Sản phẩm mẫu 38",
-    "price": 1038000,
-    "image": "images/san_pham_38.jpg",
-    "description": "Mô tả sản phẩm mẫu 38.",
-    "category": "Vợt"
-  },
-  {
-    "id": 39,
-    "name": "Sản phẩm mẫu 39",
-    "price": 1039000,
-    "image": "images/san_pham_39.jpg",
-    "description": "Mô tả sản phẩm mẫu 39.",
-    "category": "Giày"
-  },
-  {
-    "id": 40,
-    "name": "Sản phẩm mẫu 40",
-    "price": 1040000,
-    "image": "images/san_pham_40.jpg",
-    "description": "Mô tả sản phẩm mẫu 40.",
-    "category": "Vợt"
-  },
-  {
-    "id": 41,
-    "name": "Sản phẩm mẫu 41",
-    "price": 1041000,
-    "image": "images/san_pham_41.jpg",
-    "description": "Mô tả sản phẩm mẫu 41.",
-    "category": "Giày"
-  },
-  {
-    "id": 42,
-    "name": "Sản phẩm mẫu 42",
-    "price": 1042000,
-    "image": "images/san_pham_42.jpg",
-    "description": "Mô tả sản phẩm mẫu 42.",
-    "category": "Vợt"
-  },
-  {
-    "id": 43,
-    "name": "Sản phẩm mẫu 43",
-    "price": 1043000,
-    "image": "images/san_pham_43.jpg",
-    "description": "Mô tả sản phẩm mẫu 43.",
-    "category": "Giày"
-  },
-  {
-    "id": 44,
-    "name": "Sản phẩm mẫu 44",
-    "price": 1044000,
-    "image": "images/san_pham_44.jpg",
-    "description": "Mô tả sản phẩm mẫu 44.",
-    "category": "Vợt"
-  },
-  {
-    "id": 45,
-    "name": "Sản phẩm mẫu 45",
-    "price": 1045000,
-    "image": "images/san_pham_45.jpg",
-    "description": "Mô tả sản phẩm mẫu 45.",
-    "category": "Giày"
-  },
-  {
-    "id": 46,
-    "name": "Sản phẩm mẫu 46",
-    "price": 1046000,
-    "image": "images/san_pham_46.jpg",
-    "description": "Mô tả sản phẩm mẫu 46.",
-    "category": "Vợt"
-  },
-  {
-    "id": 47,
-    "name": "Sản phẩm mẫu 47",
-    "price": 1047000,
-    "image": "images/san_pham_47.jpg",
-    "description": "Mô tả sản phẩm mẫu 47.",
-    "category": "Giày"
-  },
-  {
-    "id": 48,
-    "name": "Sản phẩm mẫu 48",
-    "price": 1048000,
-    "image": "images/san_pham_48.jpg",
-    "description": "Mô tả sản phẩm mẫu 48.",
-    "category": "Vợt"
-  },
-  {
-    "id": 49,
-    "name": "Sản phẩm mẫu 49",
-    "price": 1049000,
-    "image": "images/san_pham_49.jpg",
-    "description": "Mô tả sản phẩm mẫu 49.",
-    "category": "Giày"
-  },
-  {
-    "id": 50,
-    "name": "Sản phẩm mẫu 50",
-    "price": 1050000,
-    "image": "images/san_pham_50.jpg",
-    "description": "Mô tả sản phẩm mẫu 50.",
-    "category": "Vợt"
-  },
-  {
-    "id": 51,
-    "name": "Sản phẩm mẫu 51",
-    "price": 1051000,
-    "image": "images/san_pham_51.jpg",
-    "description": "Mô tả sản phẩm mẫu 51.",
-    "category": "Giày"
-  },
-  {
-    "id": 52,
-    "name": "Sản phẩm mẫu 52",
-    "price": 1052000,
-    "image": "images/san_pham_52.jpg",
-    "description": "Mô tả sản phẩm mẫu 52.",
-    "category": "Vợt"
-  },
-  {
-    "id": 53,
-    "name": "Sản phẩm mẫu 53",
-    "price": 1053000,
-    "image": "images/san_pham_53.jpg",
-    "description": "Mô tả sản phẩm mẫu 53.",
-    "category": "Giày"
-  },
-  {
-    "id": 54,
-    "name": "Sản phẩm mẫu 54",
-    "price": 1054000,
-    "image": "images/san_pham_54.jpg",
-    "description": "Mô tả sản phẩm mẫu 54.",
-    "category": "Vợt"
-  },
-  {
-    "id": 55,
-    "name": "Sản phẩm mẫu 55",
-    "price": 1055000,
-    "image": "images/san_pham_55.jpg",
-    "description": "Mô tả sản phẩm mẫu 55.",
-    "category": "Giày"
-  },
-  {
-    "id": 56,
-    "name": "Sản phẩm mẫu 56",
-    "price": 1056000,
-    "image": "images/san_pham_56.jpg",
-    "description": "Mô tả sản phẩm mẫu 56.",
-    "category": "Vợt"
-  },
-  {
-    "id": 57,
-    "name": "Sản phẩm mẫu 57",
-    "price": 1057000,
-    "image": "images/san_pham_57.jpg",
-    "description": "Mô tả sản phẩm mẫu 57.",
-    "category": "Giày"
-  },
-  {
-    "id": 58,
-    "name": "Sản phẩm mẫu 58",
-    "price": 1058000,
-    "image": "images/san_pham_58.jpg",
-    "description": "Mô tả sản phẩm mẫu 58.",
-    "category": "Vợt"
-  },
-  {
-    "id": 59,
-    "name": "Sản phẩm mẫu 59",
-    "price": 1059000,
-    "image": "images/san_pham_59.jpg",
-    "description": "Mô tả sản phẩm mẫu 59.",
-    "category": "Giày"
-  },
-  {
-    "id": 60,
-    "name": "Sản phẩm mẫu 60",
-    "price": 1060000,
-    "image": "images/san_pham_60.jpg",
-    "description": "Mô tả sản phẩm mẫu 60.",
-    "category": "Vợt"
-  },
-  {
-    "id": 61,
-    "name": "Sản phẩm mẫu 61",
-    "price": 1061000,
-    "image": "images/san_pham_61.jpg",
-    "description": "Mô tả sản phẩm mẫu 61.",
-    "category": "Giày"
-  },
-  {
-    "id": 62,
-    "name": "Sản phẩm mẫu 62",
-    "price": 1062000,
-    "image": "images/san_pham_62.jpg",
-    "description": "Mô tả sản phẩm mẫu 62.",
-    "category": "Vợt"
-  },
-  {
-    "id": 63,
-    "name": "Sản phẩm mẫu 63",
-    "price": 1063000,
-    "image": "images/san_pham_63.jpg",
-    "description": "Mô tả sản phẩm mẫu 63.",
-    "category": "Giày"
-  },
-  {
-    "id": 64,
-    "name": "Sản phẩm mẫu 64",
-    "price": 1064000,
-    "image": "images/san_pham_64.jpg",
-    "description": "Mô tả sản phẩm mẫu 64.",
-    "category": "Vợt"
-  },
-  {
-    "id": 65,
-    "name": "Sản phẩm mẫu 65",
-    "price": 1065000,
-    "image": "images/san_pham_65.jpg",
-    "description": "Mô tả sản phẩm mẫu 65.",
-    "category": "Giày"
-  },
-  {
-    "id": 66,
-    "name": "Sản phẩm mẫu 66",
-    "price": 1066000,
-    "image": "images/san_pham_66.jpg",
-    "description": "Mô tả sản phẩm mẫu 66.",
-    "category": "Vợt"
-  },
-  {
-    "id": 67,
-    "name": "Sản phẩm mẫu 67",
-    "price": 1067000,
-    "image": "images/san_pham_67.jpg",
-    "description": "Mô tả sản phẩm mẫu 67.",
-    "category": "Giày"
-  },
-  {
-    "id": 68,
-    "name": "Sản phẩm mẫu 68",
-    "price": 1068000,
-    "image": "images/san_pham_68.jpg",
-    "description": "Mô tả sản phẩm mẫu 68.",
-    "category": "Vợt"
-  },
-  {
-    "id": 69,
-    "name": "Sản phẩm mẫu 69",
-    "price": 1069000,
-    "image": "images/san_pham_69.jpg",
-    "description": "Mô tả sản phẩm mẫu 69.",
-    "category": "Giày"
-  },
-  {
-    "id": 70,
-    "name": "Sản phẩm mẫu 70",
-    "price": 1070000,
-    "image": "images/san_pham_70.jpg",
-    "description": "Mô tả sản phẩm mẫu 70.",
-    "category": "Vợt"
-  },
-  {
-    "id": 71,
-    "name": "Sản phẩm mẫu 71",
-    "price": 1071000,
-    "image": "images/san_pham_71.jpg",
-    "description": "Mô tả sản phẩm mẫu 71.",
-    "category": "Giày"
-  },
-  {
-    "id": 72,
-    "name": "Sản phẩm mẫu 72",
-    "price": 1072000,
-    "image": "images/san_pham_72.jpg",
-    "description": "Mô tả sản phẩm mẫu 72.",
-    "category": "Vợt"
-  },
-  {
-    "id": 73,
-    "name": "Sản phẩm mẫu 73",
-    "price": 1073000,
-    "image": "images/san_pham_73.jpg",
-    "description": "Mô tả sản phẩm mẫu 73.",
-    "category": "Giày"
-  },
-  {
-    "id": 74,
-    "name": "Sản phẩm mẫu 74",
-    "price": 1074000,
-    "image": "images/san_pham_74.jpg",
-    "description": "Mô tả sản phẩm mẫu 74.",
-    "category": "Vợt"
-  },
-  {
-    "id": 75,
-    "name": "Sản phẩm mẫu 75",
-    "price": 1075000,
-    "image": "images/san_pham_75.jpg",
-    "description": "Mô tả sản phẩm mẫu 75.",
-    "category": "Giày"
-  }
-]
+
+const products = [
+  new Product(1, "Giày cầu lông Taro TR024-2", 499000, "images/giay_taro_tr024_2.jpg", "Giày cầu lông Taro TR024-2, thiết kế thể thao, êm ái, bám sân tốt.", "Giày"),
+  new Product(2, "Giày cầu lông Taro TR024-1", 499000, "images/giay_taro_tr024_1.jpg", "Giày cầu lông Taro TR024-1, kiểu dáng trẻ trung, phù hợp mọi đối tượng.", "Giày"),
+  new Product(3, "Giày cầu lông Yonex Comfort Z3 Wide", 3000000, "images/giay_yonex_comfort_z3.jpg", "Giày cầu lông Yonex Comfort Z3 Wide, cao cấp, siêu nhẹ, siêu êm.", "Giày"),
+  new Product(4, "Giày cầu lông Yonex SHB 03EX - Trắng", 1940000, "images/giay_yonex_shb_03ex_trang.jpg", "Giày cầu lông Yonex SHB 03EX màu trắng, bền đẹp, thoáng khí.", "Giày"),
+  new Product(5, "Giày Cầu Lông Yonex SHB 55EX Cam", 1604000, "images/giay_yonex_shb_55ex_cam.jpg", "Giày cầu lông Yonex SHB 55EX màu cam, thiết kế nổi bật, êm chân.", "Giày"),
+  // Thêm các sản phẩm khác nếu cần
+];
+
+products.push(
+  new Product(42, "Giày cầu lông Kawasaki K32012", 1000000, "images/giay-cau-long-kawasaki-k32012-trang-xanh-chinh-hang_1752721441.jpg", "Giày cầu lông Kawasaki K32012, bền, êm chân.", "Giày"),
+  new Product(43, "Giày cầu lông Kawasaki 32011", 980000, "images/giay-cau-long-kawasaki-k32011-trang-chinh-hang_1751857633.jpg", "Giày cầu lông Kawasaki 32011, thiết kế thể thao, giá tốt.", "Giày"),
+  new Product(44, "Giày cầu lông Victor P9200 cHP-AB", 1950000, "images/giay-cau-long-victor-p9200-chp-ab-trang-chinh-hang_1750884421.jpg", "Giày cầu lông Victor P9200 cHP-AB, cao cấp, bám sân tốt.", "Giày"),
+  new Product(45, "Giày cầu lông Victor P9200 cHP-B", 1950000, "images/giay-cau-long-victor-p9200-chp-b-xanh-chinh-hang_1750882055.jpg", "Giày cầu lông Victor P9200 cHP-B, cao cấp, êm ái.", "Giày"),
+  new Product(46, "Giày cầu lông Yonex SHB 470CR", 1570000, "images/giay-cau-long-yonex-shb-470cr-hong-noi-dia-trung_1750817381.jpg", "Giày cầu lông Yonex SHB 470CR, êm ái, bám sân tốt.", "Giày"),
+  new Product(47, "Giày cầu lông Asics Court Control FF 3 Women", 3199999, "images/giay-cau-long-asics-court-control-ff-3-men-xanh-chinh-hang-1071a087-404-2_1750810380.jpg", "Giày cầu lông Asics Court Control FF 3 Women, cao cấp, dành cho nữ.", "Giày"),
+  new Product(48, "Giày cầu lông Asics Gel-Rocket 12 Women", 1899000, "images/giay-cau-long-asics-gel-rocket-12-white-mako-blue-chinh-hang_1749245490.jpg", "Giày cầu lông Asics Gel-Rocket 12 Women, nhẹ, thoáng khí.", "Giày"),
+  new Product(49, "Giày cầu lông Asics Gel-Rocket 12 Men", 1899000, "images/giay-cau-long-asics-gel-rocket-12-white-black-chinh-hang-1_1749244679.jpg", "Giày cầu lông Asics Gel-Rocket 12 Men, bền, êm chân.", "Giày")
+);
+
+products.push(
+  new Product(26, "Giày cầu lông Yonex SHB 470CR", 1570000, "images/giay-cau-long-yonex-shb-470cr-hong-noi-dia-trung_1750817381.jpg", "Premium - Giày cầu lông Yonex SHB 470CR, êm ái, bám sân tốt.", "Giày"),
+  new Product(27, "Giày cầu lông Yonex Pyro", 979000, "images/giay-cau-long-yonex-pyro-black-gold-chinh-hang_1750464017.jpg", "Premium - Giày cầu lông Yonex Pyro, thiết kế thể thao, nhẹ, bền.", "Giày"),
+  new Product(28, "Giày cầu lông Yonex Atlas 4", 999000, "images/giay-cau-long-yonex-atlas-4-b-blue-aqua-marine-chinh-hang_1750203265.jpg", "Premium - Giày cầu lông Yonex Atlas 4, hỗ trợ di chuyển linh hoạt.", "Giày"),
+  new Product(29, "Giày cầu lông Yonex Power Cushion Comfort Z3 Women", 2799000, "images/giay-cau-long-yonex-power-cushion-comfort-z3-women-ofwtrd-chinh-hang_1748917583.jpg", "Premium - Giày cầu lông Yonex Power Cushion Comfort Z3 Women, giảm 10%, giá cũ 3.099.000 ₫.", "Giày"),
+  new Product(30, "Giày cầu lông Yonex Skill 5", 939000, "images/giay-cau-long-yonex-skill-5-white-black-chinh-hang_1742936485.jpg", "Giày cầu lông Yonex Skill 5, bền, nhẹ, thoải mái.", "Giày"),
+  new Product(31, "Giày cầu lông Yonex Hy Ultra", 699000, "images/giay-cau-long-yonex-hy-ultra-hyper-blue-lime-chinh-hang_1742240617.jpg", "Giày cầu lông Yonex Hy Ultra, nhẹ, êm chân.", "Giày"),
+  new Product(32, "Giày cầu lông Yonex Dominant 5", 939000, "images/giay-cau-long-yonex-dominant-5-white-black-chinh-hang_1741133143.jpg", "Giày cầu lông Yonex Dominant 5, hỗ trợ di chuyển tốt.", "Giày"),
+  new Product(33, "Giày cầu lông Yonex Eclipsion Z3 Mid - Light Blue chính hãng", 2819000, "images/giay-cau-long-yonex-eclipsion-z3-mid-light-blue-chinh-hang_1740958940.jpg", "Giày cầu lông Yonex Eclipsion Z3 Mid - Light Blue, chính hãng, cao cấp.", "Giày"),
+  new Product(34, "Giày cầu lông Yonex Velo 200", 649000, "images/giay-cau-long-yonex-velo-200-indigo-marine-white-chinh-hang_1742243192.jpg", "Giày cầu lông Yonex Velo 200, giá tốt, bền.", "Giày"),
+  new Product(35, "Giày cầu lông Yonex Valor-1", 1200000, "images/giay-cau-long-yonex-valor-1-white-black-aqua-blue_1739301957.jpg", "Giày cầu lông Yonex Valor-1, thiết kế thể thao.", "Giày"),
+  new Product(36, "Giày cầu lông Yonex Strike-X", 1200000, "images/giay-cau-long-yonex-strike-x-red-gold-chinh-hang_1738694651.jpg", "Giày cầu lông Yonex Strike-X, bám sân tốt.", "Giày"),
+  new Product(37, "Giày cầu lông Yonex SHB 65X4 2025", 1809000, "images/giay-cau-long-yonex-shb-65x4-trang-2025-chinh-hang_1736972553.jpg", "Giày cầu lông Yonex SHB 65X4 2025, phiên bản mới.", "Giày"),
+  new Product(38, "Giày cầu lông Yonex SHB 65Z4 Women 2025", 2749000, "images/giay-cau-long-yonex-shb-65z4-women-trang-2025-noi-dia-trung_1746216637.jpg", "Giày cầu lông Yonex SHB 65Z4 Women 2025, dành cho nữ.", "Giày"),
+  new Product(39, "Giày cầu lông Yonex SHB 65Z4 Wide 2025", 2749000, "images/giay-cau-long-yonex-shb-65z4-wide-trang-2025-chinh-hang_1742527000.jpg", "Giày cầu lông Yonex SHB 65Z4 Wide 2025, bản rộng.", "Giày")
+);
+
+products.push(
+  new Product(6, "Vợt cầu lông Yonex Arcsaber 0 Ability", 599000, "images/vot-cau-long-yonex-arcsaber-0-ability_1739223521.jpg", "Vợt cầu lông Yonex Arcsaber 0 Ability, dòng Premium, kiểm soát tốt.", "Vợt"),
+  new Product(7, "Vợt cầu lông Yonex Arcsaber 0 Clear", 599000, "images/vot-cau-long-yonex-arcsaber-0-clear_1739223176.jpg", "Vợt cầu lông Yonex Arcsaber 0 Clear, dòng Premium, trợ lực tốt.", "Vợt"),
+  new Product(8, "Vợt cầu lông Yonex Arcsaber 0 Feel", 599000, "images/vot-cau-long-yonex-arcsaber-0-feel_1739222312.jpg", "Vợt cầu lông Yonex Arcsaber 0 Feel, dòng Premium, cảm giác cầu tốt.", "Vợt"),
+  new Product(9, "Vợt cầu lông Yonex Nanoflare Starbucks", 1590000, "images/vot-cau-long-yonex-nanoflare-starbucks-hong-noi-dia-trung_1728956698.jpg", "Vợt cầu lông Yonex Nanoflare Starbucks, thiết kế độc đáo, nhẹ, linh hoạt.", "Vợt"),
+  new Product(10, "Vợt cầu lông Yonex Nanoflare Junior", 1639000, "images/vot-cau-long-yonex-nanoflare-junior-cyan-chinh-hang_1737405462.jpg", "Vợt cầu lông Yonex Nanoflare Junior, phù hợp trẻ em, trọng lượng nhẹ.", "Vợt"),
+  new Product(11, "Vợt cầu lông Yonex Nanoflare 001F 2024", 959000, "images/vot-cau-long-yonex-nanoflare-700-play-midnight-purple-chinh-hang_1727136360.webp", "Vợt cầu lông Yonex Nanoflare 001F 2024, phiên bản mới, tốc độ cao.", "Vợt"),
+  new Product(12, "Vợt cầu lông Yonex Arcsaber 2 Feel", 1259000, "images/vot-cau-long-yonex-arcsaber-2-feel-black-green-chinh-hang_1731868152.jpg", "Vợt cầu lông Yonex Arcsaber 2 Feel, kiểm soát tốt, cảm giác cầu tuyệt vời.", "Vợt"),
+  new Product(13, "Vợt cầu lông Yonex Arcsaber 2 Clear", 1259000, "images/vot-cau-long-yonex-arcsaber-2-clear-black-blue-chinh-hang_1731718673.jpg", "Vợt cầu lông Yonex Arcsaber 2 Clear, trợ lực tốt, bền bỉ.", "Vợt"),
+  new Product(14, "Vợt cầu lông Yonex Arcsaber 2 Ability", 1259000, "images/vot-cau-long-yonex-arcsaber-2-ability-black-pink-chinh-hang_1731718475.jpg", "Vợt cầu lông Yonex Arcsaber 2 Ability, dòng Premium, kiểm soát và sức mạnh.", "Vợt"),
+  new Product(15, "Vợt cầu lông Yonex Nanoflare 700 Pro 2024", 4309000, "images/vot-cau-long-yonex-nanoflare-700-pro-chinh-hang_1727042472.jpg", "Vợt cầu lông Yonex Nanoflare 700 Pro 2024, tốc độ và sức mạnh vượt trội.", "Vợt"),
+  new Product(16, "Vợt cầu lông Yonex Nanoflare 1000Z", 5099000, "images/Yonex_Nanoflare_1000Z.jpg", "Vợt cầu lông Yonex Nanoflare 1000Z, cao cấp, dành cho vận động viên chuyên nghiệp.", "Vợt"),
+  new Product(17, "Vợt Cầu Lông Yonex Astrox 88D Pro 2024", 4599000, "images/vot-cau-long-yonex-astrox-88d-pro-2024-chinh-hang_1711052539.jpg", "Vợt Cầu Lông Yonex Astrox 88D Pro 2024, sức mạnh tấn công, kiểm soát tốt.", "Vợt"),
+  new Product(18, "Vợt Cầu Lông Yonex Astrox 88S Pro 2024", 4599000, "images/vot-cau-long-yonex-astrox-88s-pro-2024-chinh-hang-1_1711051495.jpg", "Vợt Cầu Lông Yonex Astrox 88S Pro 2024, kiểm soát cầu, linh hoạt.", "Vợt"),
+  new Product(19, "Vợt cầu lông Yonex Astrox 99 Pro", 4719000, "images/vot-cau-long-yonex-astrox-99-pro-do-chinh-hang_1735064653.jpg", "Vợt cầu lông Yonex Astrox 99 Pro, dòng cao cấp, sức mạnh tối đa.", "Vợt"),
+  new Product(20, "Vợt cầu lông Yonex Nanoflare 700 Play", 1299000, "images/vot-cau-long-yonex-nanoflare-700-play-midnight-purple-chinh-hang_1727136360.webp", "Vợt cầu lông Yonex Nanoflare 700 Play, nhẹ, linh hoạt, giá tốt.", "Vợt"),
+  new Product(21, "Vợt cầu lông Yonex Nanoflare 700 Game", 1899000, "images/vot-cau-long-yonex-nanoflare-700-game-chinh-hang_1727137637.jpg", "Vợt cầu lông Yonex Nanoflare 700 Game, tốc độ cao, kiểm soát tốt.", "Vợt"),
+  new Product(22, "Vợt cầu lông Yonex Nanoflare 700 Tour", 2639000, "images/vot-cau-long-yonex-nanoflare-700-tour-1_1727142673.jpg", "Vợt cầu lông Yonex Nanoflare 700 Tour, dành cho người chơi nâng cao.", "Vợt"),
+  new Product(23, "Vợt Cầu Lông Yonex NanoFlare 370 Speed", 1919000, "images/vot-cau-long-yonex-nanoflare-370-speed-blue-chinh-hang_1722473541.jpg", "Vợt Cầu Lông Yonex NanoFlare 370 Speed, tốc độ, kiểm soát tốt.", "Vợt"),
+  new Product(24, "SET Vợt cầu lông Yonex NanoFlare FL New 2024", 3500000, "images/set-vot-cau-long-yonex-nanoflare-fl-new-2024-noi-dia_1720557231.jpg", "SET Vợt cầu lông Yonex NanoFlare FL New 2024, phiên bản mới nhất.", "Vợt"),
+  new Product(25, "Vợt Cầu Lông Yonex Nanoflare Wex", 1750000, "images/vot-cau-long-yonex-nanoflare-wex-noi-dia-trung_1719176769.jpg", "Vợt Cầu Lông Yonex Nanoflare Wex, nhẹ, linh hoạt, dễ điều khiển.", "Vợt")
+
+  
+);
+
+products.push(
+  new Product(50, "Vợt cầu lông Victor Ars Alien Baltan chính hãng", 1290000, "images/vot-cau-long-victor-ars-alien-baltan-chinh-hang_1752431203.jpg", "Premium - Vợt cầu lông Victor Ars Alien Baltan chính hãng.", "Vợt"),
+  new Product(51, "Vợt cầu lông Victor TK Ultramantiga chính hãng", 2490000, "images/vot-cau-long-victor-tk-ultramantiga-chinh-hang_1752431714.jpg", "Premium - Vợt cầu lông Victor TK Ultramantiga chính hãng.", "Vợt"),
+  new Product(52, "Vợt cầu lông Victor Thruster Shenron G – DragonBall Z 2025", 3200000, "images/vot-cau-long-victor-thruster-shenron-g-ndash-dragonball-z-2025-noi-dia-trung_1750885003.jpg", "Premium - Vợt cầu lông Victor Thruster Shenron G – DragonBall Z 2025.", "Vợt"),
+  new Product(53, "Set vợt cầu lông Victor Thruster Goku GB F – DragonBall Z 2025", 4800000, "images/set-vot-cau-long-victor-thruster-goku-gb-f-ndash-dragonball-z-2025-chinh-hang_1748488562.jpg", "Premium - Set vợt cầu lông Victor Thruster Goku GB F – DragonBall Z 2025.", "Vợt"),
+  new Product(54, "Vợt cầu lông Victor TK Ultramanz chính hãng", 1790000, "images/vot-cau-long-victor-tk-ultramanz-chinh-hang_1752431561.jpg", "Vợt cầu lông Victor TK Ultramanz chính hãng.", "Vợt"),
+  new Product(55, "Vợt cầu lông Victor Auraspeed Fantôme SC25 chính hãng", 4150000, "images/vot-cau-long-victor-auraspeed-fantome-sc25-chinh-hang_1749169807.jpg", "Vợt cầu lông Victor Auraspeed Fantôme SC25 chính hãng.", "Vợt"),
+  new Product(56, "Vợt cầu lông Victor Thruster HMR Pro", 1390000, "images/vot-cau-long-victor-thruster-hmr-pro-x-bac-chinh-hang_1748466683.jpg", "Vợt cầu lông Victor Thruster HMR Pro.", "Vợt"),
+  new Product(57, "Vợt Cầu Lông Victor Ryuga TD/C chính hãng", 2450000, "images/vot-cau-long-victor-ryuga-td-c-chinh-hang_1748488966.jpg", "Vợt Cầu Lông Victor Ryuga TD/C chính hãng.", "Vợt"),
+  new Product(58, "Vợt cầu lông Victor AuraSpeed 90F - Xanh chính hãng", 2650000, "images/vot-victor-auraspeed-90f-xanh-chinh-hang_1748477786.jpg", "Vợt cầu lông Victor AuraSpeed 90F - Xanh chính hãng.", "Vợt"),
+  new Product(59, "Vợt Cầu Lông Victor Thruster Ryuga II Pro CPS", 3950000, "images/vot-cau-long-victor-thruster-ryuga-ii-pro-cps-chinh-hang_1749169434.jpg", "Vợt Cầu Lông Victor Thruster Ryuga II Pro CPS.", "Vợt"),
+  new Product(60, "Vợt Cầu Lông Victor Thruster Ryuga Metallic CPS", 3950000, "images/vot-cau-long-victor-thruster-ryuga-metallic-cps-chinh-hang_1748463731.jpg", "Vợt Cầu Lông Victor Thruster Ryuga Metallic CPS.", "Vợt"),
+  new Product(62, "Vợt cầu lông Victor Thruster Ryuga II TD chính hãng", 3100000, "images/vot-cau-long-victor-thruster-ryuga-ii-td-chinh-hang_1744309520.jpg", "Vợt cầu lông Victor Thruster Ryuga II TD chính hãng.", "Vợt"),
+  new Product(63, "Vợt cầu lông Victor Auraspeed FANTÔME 2025", 3450000, "images/vot-cau-long-victor-auraspeed-fantome-2025-chinh-hang_1744255601.jpg", "Vợt cầu lông Victor Auraspeed FANTÔME 2025.", "Vợt"),
+  new Product(64, "Vợt cầu lông Victor Auraspeed 100X Ultra New 2025", 3700000, "images/vot-cau-long-victor-auraspeed-100x-ultra-g-2025-chinh-hang_1744255806.jpg", "Vợt cầu lông Victor Auraspeed 100X Ultra New 2025.", "Vợt"),
+  new Product(65, "Set vợt cầu lông Victor Doraemon TK-DRM", 2349000, "images/set-vot-cau-long-victor-doraemon-tk-drm-noi-dia-trung-1_1741374214.jpg", "Set vợt cầu lông Victor Doraemon TK-DRM.", "Vợt"),
+  new Product(66, "Set vợt cầu lông Victor Doraemon DX-DRM GB", 3600000, "images/set-vot-cau-long-victor-doraemon-dx-drm-gb-noi-dia-trung-1_1741373737.jpg", "Set vợt cầu lông Victor Doraemon DX-DRM GB.", "Vợt"),
+  new Product(67, "Vợt cầu lông Victor TK 220H II", 2240000, "images/vot-cau-long-victor-tk-220h-ii-chinh-hang_1718227945.jpg", "Vợt cầu lông Victor TK 220H II.", "Vợt"),
+  new Product(68, "Set vợt cầu lông Victor Thruster K CNY 2025", 4190000, "images/set-vot-cau-long-victor-thruster-k-cny-2025-chinh-hang_1737313813.jpg", "Set vợt cầu lông Victor Thruster K CNY 2025.", "Vợt"),
+  new Product(69, "Vợt Cầu Lông Victor DX-3H 2025", 1249000, "images/vot-cau-long-victor-dx-3h-2025-chinh-hang_1737313212.jpg", "Vợt Cầu Lông Victor DX-3H 2025.", "Vợt"),
+  new Product(70, "Vợt cầu lông Victor Brave Sword 12 Pro", 3200000, "images/vot-cau-long-victor-brave-sword-12-pro-chinh-hang_1737312826.jpg", "Vợt cầu lông Victor Brave Sword 12 Pro.", "Vợt"),
+  new Product(71, "Vợt Cầu Lông Victor TK - TTY Ultima", 3800000, "images/vot-cau-long-victor-tk-tty-ultima-chinh-hang_1732668820.jpg", "Vợt Cầu Lông Victor TK - TTY Ultima.", "Vợt"),
+  new Product(72, "Vợt cầu lông Victor THRUSTER RYUGA CLS", 1390000, "images/vot-cau-long-victor-thruster-ryuga-cls-d-noi-dia-trung_1751307037.jpg", "Vợt cầu lông Victor THRUSTER RYUGA CLS.", "Vợt"),
+  new Product(73, "Vợt cầu lông Victor Mjolnir Metallic Limited 2024", 3750000, "images/vot-cau-long-victor-mjolnir-metallic-limited-2024-chinh-hang_1726801911.jpg", "Vợt cầu lông Victor Mjolnir Metallic Limited 2024.", "Vợt"),
+  new Product(74, "Vợt Cầu Lông Victor TK-F Ultra", 3400000, "images/vot-cau-long-victor-tk-f-ultra-chinh-hang_1722819455.jpg", "Vợt Cầu Lông Victor TK-F Ultra.", "Vợt"),
+  new Product(75, "Vợt Cầu Lông Victor ARS 90K Metallic", 3400000, "images/combo-mua-vot-cau-long-victor-ars-90k-ii-td-tang-vot-victor-ars-9990k-vot-victor-tk220h-ii_1744309071.jpg", "Vợt Cầu Lông Victor ARS 90K Metallic.", "Vợt")
+);
 
 // Hiển thị sản phẩm
 let currentCategory = 'Tất cả';
