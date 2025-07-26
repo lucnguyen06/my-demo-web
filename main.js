@@ -204,7 +204,7 @@ function removeItem(id) {
 
 // Slider đơn giản
 const sliderImages = [
-  'images/baned_1.jpg',
+  '/baned_1.jpg', 
   'images/baned_2.jpg',
   'images/baned_3.jpg',
   'images/baned_4.jpg',
